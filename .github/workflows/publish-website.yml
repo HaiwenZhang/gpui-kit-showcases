@@ -73,4 +73,4 @@ jobs:
             echo '::error::Configure DOCS_DISPATCH_TOKEN with Actions: write on longbridge/gpui-kit, then rerun this workflow.'
             exit 1
           fi
-          gh workflow run release-docs.yml --repo longbridge/gpui-kit --ref main
+          gh workflow run release-website.yml --repo longbridge/gpui-kit --ref main
